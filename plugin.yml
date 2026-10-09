@@ -1,10 +1,10 @@
 ---
 name: AntiServerStop
-version: 1.0.2
+version: 1.0.3
 main: NhanAZ\AntiServerStop\Main
 api: 5.0.0
 author: NhanAZ
-website: https://github.com/NhanAZ
+website: https://github.com/NhanAZ-Plugins/AntiServerStop
 src-namespace-prefix: NhanAZ\AntiServerStop
 description: "The operator won't be able to stop your server if they don't have the password!"
 
