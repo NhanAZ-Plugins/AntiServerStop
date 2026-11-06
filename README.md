@@ -32,7 +32,7 @@ Download `AntiServerStop.phar` from a verified [GitHub release](https://github.c
 
 ## Building and testing
 
-The [build workflow](.github/workflows/build.yml) runs PHPStan level max, builds the plugin PHAR with [DevTools](https://github.com/NhanAZ/DevTools), and verifies the PHAR contents and checksum. The workflow pins the builder revision. An isolated server check verifies that a wrong password is rejected and the correct password stops the server. A Bedrock client command test remains a separate check.
+The [build workflow](.github/workflows/build.yml) runs PHPStan level max, builds the plugin PHAR with [DevTools](https://github.com/AxolotlBucketLabs/DevTools), and verifies the PHAR contents and checksum. The workflow pins the builder revision. An isolated server check verifies that a wrong password is rejected and the correct password stops the server. A Bedrock client command test remains a separate check.
 
 ## License and support
 
